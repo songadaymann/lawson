@@ -10,11 +10,27 @@
 </head>
 <body>
             <title>NHD thingy</title>
-            <style> body {
+            <style>
+                @font-face {
+                font-family: 'machine';
+                src: url('./ITC%20Machine%20Regular.otf') format('opentype');
+                font-weight: normal;
+                font-style: normal;
+                }
+
+                @font-face {
+                font-family: 'machineTwo';
+                src: url('./dxsyagidouble.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+                }
+
+                body {
                 size: 12;
                 background-color: #000;
                 padding: 12;
-                color: #f0f
+                color: #f0f;
+                font-family: machine;
                 }
                
                 p {
@@ -25,6 +41,7 @@
                 h1, h2 {
                 background-color: #000;
                 color: #fff;
+                font-family: machineTwo;
                 padding: 5px;
                 border-radius: 5px;
                 }
