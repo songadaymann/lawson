@@ -3,13 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My website</title>
+  <title>NHD: Jerry Lawson</title>
   <style>
 
   </style>
 </head>
 <body>
-            <title>NHD thingy</title>
             <style>
                 @font-face {
                 font-family: 'machine';
@@ -28,22 +27,17 @@
                 body {
                 size: 12;
                 background-color: #000;
-                padding: 12;
                 color: #f0f;
                 font-family: machine;
+                margin: 0 20%;
                 }
                
                 p {
-                background-color: #000;
-                padding: 5px;
-                border-radius: 5px;
+                    padding-bottom: 10%;
                 }
                 h1, h2 {
-                background-color: #000;
                 color: #fff;
                 font-family: machineTwo;
-                padding: 5px;
-                border-radius: 5px;
                 }
                 .car {
                 display: inline-block;
@@ -61,7 +55,7 @@
     <h1>Jerry Lawson revolutionized the world of video games, here's why</h1>
     <h2 id="heading">Insert Cartridge</h2>
     <p id="text">Insert Cartridge to the slot in the top right corner.</p>
-    <div class="dropzone" style="display: flex; position: absolute; width: 200px; height: 80px; background-image: url('slotcartridege.jpg'); background-size: cover; top: 0; right: 0; justify-content: center; align-items: end;" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropzone" style="display: flex; position: absolute; width: 200px; height: 80px; background-image: url('slotcartridege.jpg'); background-size: cover; top: -40px; right: 0; justify-content: center; align-items: end;" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     <div id="pool" class="dropzone" style="display: flex; height: 100px; background-color: #000; outline-color: #fff; outline-width: 2px; outline-style: outset; top: 0; right: 0; justify-content: center; align-items: end;" ondrop="drop(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
     <div class="car" draggable="true" id="car1" onDragStart ="drag(event)" style="background-image: url('cartridge-question.png');"></div>
     <div class="car" draggable="true" id="car2" onDragStart ="drag(event)" style="background-image: url('cartridgeglobe.png');"></div>
