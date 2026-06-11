@@ -39,7 +39,7 @@ function drop(event) {
             break;
         case 'car2':
             hd.innerText = 'How Jerry Lawson revolutionized Video Games'
-            txt.innerText = 'Jerry Lawson is widely considered as the first wide-spread African-American video game creator. He is the father of the video game cartridge, and he led the team that created the Fairchild Channel F. This created a whole new perspective on home gaming.'
+            txt.innerText = 'Jerry Lawson is widely considered as the first wide-spread African-American video game creator. He is the father of the video game cartridge, and he led the team that created the Fairchild Channel F. This created a whole new perspective on home gaming. “Ok, but all he did was make a new type of game? He barely did anything…” you say. Well, this is where you get proved wrong. Jerry created HOME GAMING, without this, we couldn\' even play Roblox, or Fortnite, or any other video game you can load on a home device. You would have to go to the arcade, pay to use a machine, and if you don\'t have an arcade near you, UH OH! I guess no video games for you… Nevermind this, it made history in such a way because Jerry Lawson was African-American. That\'s almost unheard of, as back then, there was much more racism. He changed gaming so much, and he did this all in the simple confines of his garage.'
             break;
         case 'car3':
             hd.innerText = 'More on the Console'
