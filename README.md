@@ -1,7 +1,7 @@
 # Lawson
 
-Static export of the Jerry Lawson website project.
+Static deployment of the Jerry Lawson website project from:
+
+`/Users/jonathanmann/SongADAO Dropbox/Jonathan Mann/projects/Jupis-Projects/NHD 2026`
 
 Production URL: https://code.mann.cool/lawson/
-
-Source viewer project: https://code.mann.cool/api/projects/UrdBsUm0Z68Zrw

@@ -12,7 +12,7 @@
             <title>NHD thingy</title>
             <style> body {
                 size: 12;
-                background-image: url(assets/f8game.png);
+                background-image: url(f8game.png);
                 padding: 12;
                 color: #f0f
                 }
@@ -23,8 +23,11 @@
                 border-radius: 5px;
                 }
                 h1, h2 {
-                color: #000;
-                } 
+                background-color: #000;
+                color: #fff;
+                padding: 5px;
+                border-radius: 5px;
+                }
                 .car {
                 display: inline-block;
                 width: 100px;
@@ -32,28 +35,23 @@
                 justify-content: center;
                 align-items: center;
                 color: #000;
-                background-image: url(assets/cartridge.jpeg)}
+                background-size: 200px 200px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
             </style>
     </head>
-    <h1>Jerry Lawson revolutionized the world of video games, here’s why</h1>
-    <h2 id="heading">About Jerry Lawson</h2>
-    <p id="text">Jerry Lawson loved to make stuff in his garage. He taught himself how to make stuff, and eventually became an expert engineer. He joined the Fairchild semiconductor company, and eventually created the Fairchild Channel F, a revolutionary home console that could play multiple games. <br> Before Channel F, Games had to have an entire console dedicated to them. Jerry helped Fairchild develop and make use of their new
-F8 Microprocessors. Using the F8, they were able to make the unreleased game called Destruction Derby, completed in early 1975. <br>
-In the mid-1970s, Jerry was made Chief Hardware Engineer. He led the development of the Channel F. Finished in 1976, it was the first console with swappable game cartridges based on technology licensed from Alpex. <br>
-<span style="display: block; text-align: center;"> Jerry Lawson has a Google Doodle named and 
-created in his honor. That just shows how much
-He revolutionized the world of video games!!! <br>
-Jerry Lawson was a member of the famous
- Homebrew Computer Club. 
-He frequently met up with the future founders of Apple, 
-Steve Jobs and Steve Wozniak. </span>
-</p>
-    <div class="dropzone" style="display: flex; position: absolute; width: 200px; height: 50px; background-color: #000; outline-color: #fff; outline-widt: 2px; outline-style: outset; top: 0; right: 0; justify-content: center; align-items: end;" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <h1>Jerry Lawson revolutionized the world of video games, here's why</h1>
+    <h2 id="heading">Insert Cartridge</h2>
+    <p id="text">Insert Cartridge to the slot in the top right corner.</p>
+    <div class="dropzone" style="display: flex; position: absolute; width: 200px; height: 50px; background-color: #000; outline-color: #fff; outline-width: 2px; outline-style: outset; top: 0; right: 0; justify-content: center; align-items: end;" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     <div id="pool" class="dropzone" style="display: flex; height: 100px; background-color: #000; outline-color: #fff; outline-width: 2px; outline-style: outset; top: 0; right: 0; justify-content: center; align-items: end;" ondrop="drop(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <div class="car" draggable="true" id="car1" onDragStart ="drag(event)">1<br></div>
-    <div class="car" draggable="true" id="car2" onDragStart ="drag(event)">2</div>
+    <div class="car" draggable="true" id="car1" onDragStart ="drag(event)" style="background-image: url('cartridge-question.png');"></div>
+    <div class="car" draggable="true" id="car2" onDragStart ="drag(event)" style="background-image: url('cartridgeglobe.png');"></div>
+    <div class="car" draggable="true" id="car3" onDragStart ="drag(event)" style="background-image: url('cartridgeexclamation.png');"></div>
+    <div class="car" draggable="true" id="bonus" onDragStart ="drag(event)" style="background-image: url('cartridgestar.png');"></div>
     </div>
-    <p style="white-space: pre-wrap; tab-size: 4; font-size: 10px"> BIBLIOGRAPHY PRIMARY: <br>
+    <p style="white-space: pre-wrap; tab-size: 4; font-size: 12px"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFejvybnwfW77kUecWNetqlZpKVJvzg-SumBIL3Eq7v7Stjh8fNTkf1o7u7-sbi0C_cAkDf4&s=10"> (From Wikipedia) <br> <img src="https://www.eejournal.com/wp-content/uploads/2022/11/Fairchild-Channel-F.jpg"> (From EE Journal) <br> BIBLIOGRAPHY PRIMARY: <br>
         Gerald A. Lawson papers, Brian Sutton-Smith Library and Archives of Play at The Strong, Museum of play https://archives.museumofplay.org/repositories/3/resources/32/collection_organization#tree::archival_object_11568 <br>
         SECONDARY
         Dubois, Chantelle. "Engineers of History: Jerry Lawson, Video Game Pioneer." All About Circuits, (June 11, 2018) https://www.allaboutcircuits.com/news/engineers-of-history-jerry-lawson-video-game-pioneer-1940-2011/ <br>
@@ -65,7 +63,8 @@ Steve Jobs and Steve Wozniak. </span>
         CREDIT: <br>
         Background: Arlasoft, Itch.io
         Image of Jerry Lawson: Wikipedia
+        Image of Fairchild Console: EE Journal
     </p>
-  <script src="script.js" defer></script>
+<script src="car.js"></script>
 </body>
 </html>
