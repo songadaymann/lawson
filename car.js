@@ -43,7 +43,7 @@ function drop(event) {
             break;
         case 'car3':
             hd.innerText = 'More on the Console'
-            txt.innerText = 'While it wasn\'t successful commercially, the Channel F and its F8 Microprocessor revolutionized how games were made and played. It also inspired the Atari 2600, which brought gaming from arcades to homes. And while it wasn\'t very strong in terms of computing power and wasn\'t used much, the idea was truly revolutionary, and the hardware itself is better viewed as a proof of concept.'
+            txt.innerText = 'While it wasn\'t successful commercially, the Channel F and its F8 Microprocessor revolutionized how games were made and played. It also inspired the Atari 2600, which brought gaming from arcades to homes. And while it wasn\'t very strong in terms of computing power and wasn\'t used much, the idea was truly revolutionary, and the hardware itself is better viewed as a proof of concept. It directly influenced the creation of super popular game consoles like the Atari 2600, Nintendo Entertainment System, or Sega consoles. Seriously, this console was BIG. HUGE. MASSIVE. GENORATIONAL. It changed the world along with the computer you are reading this on. '
             break;
         case 'bonus':
             hd.innerText = 'Bonus! Nerdy Stuff (specs)'
